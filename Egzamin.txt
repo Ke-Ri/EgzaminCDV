@@ -1,0 +1,13 @@
+Zadanie: 2
+
+1) git status - wyświetlenie listy zmienionych plików
+2) git add .  - pobiera ścieżkę do pliku bądź katalogu (Katalog dodaje wszystkie pliki + podkatalogi)
+3) git commit -m "Dodanie nowego pliku" - potwierdzenie commita
+4) git push - Przesłanie repozytorium
+5) git push -u origin main https://github.com/MrKarlDEV/EgzaminCDV.git - Dodanie nowego repozytorium (origin można zmienić też na inną nazwę)
+
+Zadanie: 3
+
+A) SELECT * FROM CoffeShop WHERE (Product = 'Latte' or Product = 'Long Black') and City NOT IN ('Philadelphia')
+B) SELECT Product FROM CoffeShop WHERE 'Customer ref' IN ('william thompson_86', 'mark taylor_113')
+C) SELECT DISTINCT City FROM CoffeShop WHERE Product IN ('Capuccino', 'Flat White')
