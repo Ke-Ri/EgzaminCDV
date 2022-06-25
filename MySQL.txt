@@ -1,3 +1,0 @@
-A) SELECT * FROM CoffeShop WHERE (Product = 'Latte' or Product = 'Long Black') and City NOT IN ('Philadelphia')
-B) SELECT Product FROM CoffeShop WHERE 'Customer ref' IN ('william thompson_86', 'mark taylor_113')
-C) SELECT DISTINCT City FROM CoffeShop WHERE Product IN ('Capuccino', 'Flat White')
